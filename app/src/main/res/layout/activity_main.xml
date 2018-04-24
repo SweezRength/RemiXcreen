@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="폴더로"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="검색으로"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="내정보로"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="시간대로"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="설정"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
+
