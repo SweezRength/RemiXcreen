@@ -1,8 +1,8 @@
 package com.example.kcci.seung.remixscreen;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn5 = (Button) findViewById(R.id.but5);
+        Button btn5 = (Button) findViewById(R .id.but5);
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
