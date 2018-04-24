@@ -2,18 +2,78 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/btn1"
-        android:text="하기싫다"
-        />
-    <ImageView
-        android:id="@+id/image_view1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:text="아아아앙아앙아아아아앙아" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_view1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <ImageView
+            android:id="@+id/image_view2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/image_view3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/image_view4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_view5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/image_view6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/image_view7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/image_view8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            />
+    </LinearLayout>
+
 
 </LinearLayout>
